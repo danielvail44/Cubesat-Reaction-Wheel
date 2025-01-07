@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ff273890-9ca6-499d-9c73-a93557b69e48")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 146.05 50.8)
+		(size 55.88 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d0595a1-bd8d-4ee1-8020-62fb85474ed7")
+		(property "Sheetname" "Motor Driver"
+			(at 146.05 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 146.05 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 50.8)
+		(size 46.99 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "818fd1d9-2c7b-4967-b4fa-637005b787d9")
+		(property "Sheetname" "Buck-Boost"
+			(at 55.88 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_boost.kicad_sch"
+			(at 55.88 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
