@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ECXFL32S")(type "KiCad")(uri "${KIPRJMOD}/ECXFL32S.kicad_sym")(options "")(descr ""))
+)

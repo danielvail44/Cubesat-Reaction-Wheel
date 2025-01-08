@@ -825,6 +825,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 120.65) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b54785-ef24-4b57-8881-9a2da26a6389")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066c099f-f19d-44e7-b21b-0de3bfd49acd")
+	)
+	(wire
+		(pts
 			(xy 73.66 73.66) (xy 80.01 73.66)
 		)
 		(stroke
@@ -832,6 +852,16 @@
 			(type default)
 		)
 		(uuid "0d39fc24-ca32-4206-8a4c-606f76fc15e9")
+	)
+	(wire
+		(pts
+			(xy 100.33 114.3) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cb1e0c-8715-4fa0-aa6f-add499d65814")
 	)
 	(wire
 		(pts
@@ -885,6 +915,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310e95c6-243a-4484-8d3e-18894079afdf")
+	)
+	(wire
+		(pts
+			(xy 102.87 118.11) (xy 106.68 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350a25ae-3f18-43f6-94b8-25e7a86be93f")
+	)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401173fc-6b0c-4959-9c66-c96888004843")
+	)
+	(wire
+		(pts
 			(xy 92.71 119.38) (xy 86.36 119.38)
 		)
 		(stroke
@@ -895,13 +955,33 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 114.3) (xy 97.79 118.11)
+			(xy 115.57 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498a9a7a-ea99-4243-a0f7-78d21fde03ef")
+	)
+	(wire
+		(pts
+			(xy 97.79 114.3) (xy 97.79 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ca1b2a1-cf89-4285-b198-ccd23a432d6a")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d67858d-e3a0-431b-bac9-edcf84ef9e9a")
 	)
 	(wire
 		(pts
@@ -925,6 +1005,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 114.3) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be65cb7-cfe8-4325-8e07-2db9da58b2cd")
+	)
+	(wire
+		(pts
 			(xy 95.25 114.3) (xy 95.25 121.92)
 		)
 		(stroke
@@ -935,6 +1025,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 96.52) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4cf948-dc2c-4fb9-83ed-88c434d39d56")
+	)
+	(wire
+		(pts
 			(xy 95.25 121.92) (xy 86.36 121.92)
 		)
 		(stroke
@@ -942,6 +1042,16 @@
 			(type default)
 		)
 		(uuid "7e4ac4fd-4f99-4c2e-84fa-46089b04636b")
+	)
+	(wire
+		(pts
+			(xy 130.81 93.98) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c14e31a-1082-48b4-9e08-d9b53d7da153")
 	)
 	(wire
 		(pts
@@ -1003,7 +1113,19 @@
 		)
 		(uuid "fb17bb89-9613-414e-9c35-b4839781e8e5")
 	)
-	(hierarchical_label "Motor_Brake"
+	(hierarchical_label "AVDD"
+		(shape output)
+		(at 118.11 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2402f3cf-833e-4671-b697-61908bd183c6")
+	)
+	(hierarchical_label "BRAKE"
 		(shape input)
 		(at 95.25 46.99 90)
 		(fields_autoplaced yes)
@@ -1027,7 +1149,7 @@
 		)
 		(uuid "3ccd8c05-bbda-437f-9a3d-82d6e53eeee0")
 	)
-	(hierarchical_label "Motor_OUTB"
+	(hierarchical_label "OUTB"
 		(shape output)
 		(at 86.36 119.38 180)
 		(fields_autoplaced yes)
@@ -1039,7 +1161,19 @@
 		)
 		(uuid "626e51d5-f474-4dcb-a500-14f651af9131")
 	)
-	(hierarchical_label "Motor_PWM"
+	(hierarchical_label "H_B"
+		(shape input)
+		(at 118.11 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71c079c4-ab84-4fcd-bf7b-00c3843f0a93")
+	)
+	(hierarchical_label "PWM"
 		(shape input)
 		(at 92.71 46.99 90)
 		(fields_autoplaced yes)
@@ -1051,7 +1185,19 @@
 		)
 		(uuid "827dceb0-60b7-41e2-86ba-dbeb966946b0")
 	)
-	(hierarchical_label "Motor_FGOUT"
+	(hierarchical_label "nSLEEP"
+		(shape input)
+		(at 118.11 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93341c59-c201-4d6d-80b1-b9ed02817269")
+	)
+	(hierarchical_label "FGOUT"
 		(shape output)
 		(at 73.66 73.66 180)
 		(fields_autoplaced yes)
@@ -1075,7 +1221,19 @@
 		)
 		(uuid "af52634d-4959-4370-a529-5f74a66581e5")
 	)
-	(hierarchical_label "Motor_OUTC"
+	(hierarchical_label "H_A"
+		(shape input)
+		(at 118.11 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0c7e1a2-fea2-4375-bd90-bc05960b5783")
+	)
+	(hierarchical_label "OUTC"
 		(shape output)
 		(at 86.36 121.92 180)
 		(fields_autoplaced yes)
@@ -1087,7 +1245,19 @@
 		)
 		(uuid "be4694fd-9fa0-4977-9929-f914c4a1e022")
 	)
-	(hierarchical_label "Motor_DIR"
+	(hierarchical_label "H_C"
+		(shape input)
+		(at 118.11 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bffa2002-5f3f-483a-a5c1-a5add47fc573")
+	)
+	(hierarchical_label "DIR"
 		(shape input)
 		(at 100.33 46.99 90)
 		(fields_autoplaced yes)
@@ -1099,7 +1269,31 @@
 		)
 		(uuid "c3b11c40-5aa8-4758-ae93-8912696e9442")
 	)
-	(hierarchical_label "Motor_OUTA"
+	(hierarchical_label "DRVOFF"
+		(shape input)
+		(at 106.68 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cade2d1e-0836-4450-b7a1-234992fa3260")
+	)
+	(hierarchical_label "nFAULT"
+		(shape output)
+		(at 106.68 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6e8f541-2d40-4e49-9503-59c80825f8fa")
+	)
+	(hierarchical_label "OUTA"
 		(shape output)
 		(at 86.36 116.84 180)
 		(fields_autoplaced yes)
@@ -1179,16 +1373,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 118.11 0)
+		(at 130.81 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "acac8cb6-51fb-47ab-979e-d73ed00f7842")
-		(property "Reference" "#PWR03"
-			(at 97.79 124.46 0)
+		(uuid "5bb997fc-3bec-4ac7-ba32-17a5286e8621")
+		(property "Reference" "#PWR01"
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1391,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 123.19 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 118.11 0)
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 118.11 0)
+			(at 130.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1417,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 118.11 0)
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "394a0430-7f6a-44e6-9a94-34d6365d66c9")
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/5d0595a1-bd8d-4ee1-8020-62fb85474ed7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acac8cb6-51fb-47ab-979e-d73ed00f7842")
+		(property "Reference" "#PWR03"
+			(at 97.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
