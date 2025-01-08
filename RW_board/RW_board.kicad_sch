@@ -35,6 +35,96 @@
 				(justify left top)
 			)
 		)
+		(pin "Motor_12V" input
+			(at 146.05 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b29135e-6e25-43ec-872c-3d04a70dc761")
+		)
+		(pin "Motor_GND" input
+			(at 146.05 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b71a5f0f-3076-42be-a40a-169236aee19f")
+		)
+		(pin "Motor_FGOUT" output
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1b1ae432-9f12-41aa-a06f-4bfcacfb8ade")
+		)
+		(pin "Motor_Brake" input
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79b5f39f-dce6-496c-9ad2-00b831dc75b2")
+		)
+		(pin "Motor_DIR" input
+			(at 201.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01c8cb86-82c9-4c9d-bcc8-8535a3395fa2")
+		)
+		(pin "Motor_PWM" input
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25876879-0503-4f3c-9ea9-4eb7930192b5")
+		)
+		(pin "Motor_OUTB" output
+			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72e04a3a-bb8a-4c75-a52b-a48d1d9535ea")
+		)
+		(pin "Motor_OUTC" output
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47be9b32-9dbf-41b4-af83-b1730ae1b732")
+		)
+		(pin "Motor_OUTA" output
+			(at 201.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a42a60d-207b-44b9-ba4b-58da4ec08b61")
+		)
 		(instances
 			(project "RW_board"
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48"
@@ -77,6 +167,44 @@
 			(project "RW_board"
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 101.6)
+		(size 49.53 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d46f2397-fda0-49de-8aef-b2135a54a0d5")
+		(property "Sheetname" "MCU"
+			(at 96.52 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 96.52 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48"
+					(page "4")
 				)
 			)
 		)
