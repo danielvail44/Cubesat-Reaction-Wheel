@@ -138,4 +138,78 @@ P 5 0 1 6 200 500 1200 500 1200 -1600 200 -1600 200 500 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 830105946101
+#/14054933/413181/2.50/2/4/Crystal or Oscillator
+DEF 830105946101 Y 0 30 Y Y 1 F N
+F0 "Y" 350 250 50 H V L CNN
+F1 "830105946101" 350 150 50 H V L CNN
+F2 "830105946101" 350 50 50 H I L CNN
+F3 "https://www.mouser.tw/datasheet/2/445/830105946101-2005497.pdf" 350 -50 50 H I L CNN
+F4 "Operating Temperature Range -40.00 to 85.00C" 350 -150 50 H I L CNN "Description"
+F5 "0.6" 350 -250 50 H I L CNN "Height"
+F6 "710-830105946101" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830105946101?qs=hWgE7mdIu5S9SUFYorquJw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "830105946101" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~  400 0 100 L 50 50 0 0 P
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 5 0 1 6 160 140 160 -140 240 -140 240 140 160 140 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 120 0 100 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PRTR5V0U2X,215
+#/241146/413181/2.50/4/2/Diode
+DEF PRTR5V0U2X,215 D 0 30 Y Y 1 F N
+F0 "D" 850 600 50 H V L CNN
+F1 "PRTR5V0U2X,215" 850 500 50 H V L CNN
+F2 "PRTR5V0U2X" 850 400 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" 850 300 50 H I L CNN
+F4 "ESD Protection Diodes 5.5V Dual SOT143B NXP PRTR5V0U2X,215 Dual Uni-Directional TVS Diode, 4-Pin SOT-143B" 850 200 50 H I L CNN "Description"
+F5 "1.1" 850 100 50 H I L CNN "Height"
+F6 "771-PRTR5V0U2X-T/R" 850 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/PRTR5V0U2X215?qs=LOCUfHb8d9sDkgY4cRj8Lw%3D%3D" 850 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 850 -200 50 H I L CNN "Manufacturer_Name"
+F9 "PRTR5V0U2X,215" 850 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ground 1 500 -700 200 U 50 50 0 0 P
+X input/output_1 2 0 0 200 R 50 50 0 0 P
+X input/output_2 3 0 -100 200 R 50 50 0 0 P
+X supply_voltage 4 500 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 800 400 800 -500 200 -500 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 20021521-00010T4LF
+#/18768253/413181/2.50/10/2/Connector
+DEF 20021521-00010T4LF J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "20021521-00010T4LF" 750 200 50 H V L CNN
+F2 "2002152100010T4LF" 750 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021521.pdf" 750 0 50 H I L CNN
+F4 "Minitek127<sup></sup>, Shrouded Board to Board Header, Surface Mount, 10 positions, 1.27mm (0.500in) pitch." 750 -100 50 H I L CNN "Description"
+F5 "5.85" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol Communications Solutions" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "20021521-00010T4LF" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
