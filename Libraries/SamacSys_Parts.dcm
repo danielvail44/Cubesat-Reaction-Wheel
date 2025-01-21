@@ -18,4 +18,16 @@ K
 F https://www.ti.com/lit/ds/symlink/mct8316z-q1.pdf?ts=1673673589164&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP BSZ300N15NS5ATMA1
+D Trans MOSFET N-CH 150V 32A Automotive 8-Pin TSDSON EP T/R
+K
+F https://www.arrow.com/en/products/bsz300n15ns5atma1/infineon-technologies-ag
+$ENDCMP
+#
+$CMP SDM2U30CSP-7
+D Diode Schottky 30V 2A 2-Pin X3-WLP T/R
+K
+F https://www.diodes.com//assets/Datasheets/SDM2U30CSP.pdf
+$ENDCMP
+#
 #End Doc Library
