@@ -1906,7 +1906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0610_1x06_P1.25mm_Horizontal"
 			(at 29.21 163.83 0)
 			(effects
 				(font
