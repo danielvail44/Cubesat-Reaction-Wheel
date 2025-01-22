@@ -18,4 +18,28 @@ K
 F https://www.ti.com/lit/ds/symlink/mct8316z-q1.pdf?ts=1673673589164&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP 830105946101
+D Operating Temperature Range -40.00 to 85.00C
+K
+F https://www.mouser.tw/datasheet/2/445/830105946101-2005497.pdf
+$ENDCMP
+#
+$CMP PRTR5V0U2X,215
+D ESD Protection Diodes 5.5V Dual SOT143B NXP PRTR5V0U2X,215 Dual Uni-Directional TVS Diode, 4-Pin SOT-143B
+K
+F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
+$ENDCMP
+#
+$CMP 20021521-00010T4LF
+D Minitek127<sup></sup>, Shrouded Board to Board Header, Surface Mount, 10 positions, 1.27mm (0.500in) pitch.
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021521.pdf
+$ENDCMP
+#
+$CMP 1-84953-1
+D 1MM FPC HORZ.TOP CONT.ASSY 11P
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F84953%7FA3%7Fpdf%7FEnglish%7FENG_CD_84953_A3.pdf%7F1-84953-5
+$ENDCMP
+#
 #End Doc Library
