@@ -1625,6 +1625,7 @@
 	)
 	(label "RX"
 		(at 39.37 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1635,6 +1636,7 @@
 	)
 	(label "TX"
 		(at 39.37 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,6 +1647,7 @@
 	)
 	(label "TX"
 		(at 163.83 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1655,6 +1658,7 @@
 	)
 	(label "RX"
 		(at 163.83 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

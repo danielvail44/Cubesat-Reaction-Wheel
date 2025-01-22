@@ -55,4 +55,10 @@ F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocI
 
 $ENDCMP
 #
+$CMP MAX44284WAUT+T
+D CURRENT SENSE AMPLIFIER, 1KHZ, SOT-23-6
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX44284.pdf
+$ENDCMP
+#
 #End Doc Library
