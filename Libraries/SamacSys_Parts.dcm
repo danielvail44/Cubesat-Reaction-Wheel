@@ -18,6 +18,18 @@ K
 F https://www.ti.com/lit/ds/symlink/mct8316z-q1.pdf?ts=1673673589164&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+
+$CMP BSZ300N15NS5ATMA1
+D Trans MOSFET N-CH 150V 32A Automotive 8-Pin TSDSON EP T/R
+K
+F https://www.arrow.com/en/products/bsz300n15ns5atma1/infineon-technologies-ag
+$ENDCMP
+#
+$CMP SDM2U30CSP-7
+D Diode Schottky 30V 2A 2-Pin X3-WLP T/R
+K
+F https://www.diodes.com//assets/Datasheets/SDM2U30CSP.pdf
+=======
 $CMP 830105946101
 D Operating Temperature Range -40.00 to 85.00C
 K
@@ -40,6 +52,7 @@ $CMP 1-84953-1
 D 1MM FPC HORZ.TOP CONT.ASSY 11P
 K
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F84953%7FA3%7Fpdf%7FEnglish%7FENG_CD_84953_A3.pdf%7F1-84953-5
+
 $ENDCMP
 #
 #End Doc Library
