@@ -1125,6 +1125,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 105.41) (xy 171.45 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac3e60c-af50-425b-8efb-8d8164aabf0a")
+	)
+	(wire
+		(pts
 			(xy 76.2 86.36) (xy 76.2 91.44)
 		)
 		(stroke
@@ -1202,6 +1212,16 @@
 			(type default)
 		)
 		(uuid "49036d22-32e3-41d7-9da8-b8a6c79f760e")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c971c36-0c0e-4e04-b68f-9ab60c429a2d")
 	)
 	(wire
 		(pts
@@ -1345,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 171.45 104.14)
+			(xy 163.83 116.84) (xy 171.45 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 171.45 106.68)
+			(xy 163.83 119.38) (xy 171.45 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1492,6 +1512,16 @@
 			(type default)
 		)
 		(uuid "bfe24e8f-e2dc-4684-ae15-9e67a51164ba")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c673838a-1201-482d-ae82-bc64fbeed5f0")
 	)
 	(wire
 		(pts
@@ -1644,7 +1674,7 @@
 		(uuid "07146cbc-b390-4203-8217-050fb4b8b626")
 	)
 	(label "TX"
-		(at 163.83 106.68 0)
+		(at 163.83 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1654,7 +1684,7 @@
 		(uuid "3391cc83-aedc-475a-a9f9-79b8680b7ac0")
 	)
 	(label "RX"
-		(at 163.83 104.14 0)
+		(at 163.83 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2102,7 +2132,7 @@
 	)
 	(sheet
 		(at 87.63 63.5)
-		(size 55.88 40.64)
+		(size 55.88 41.91)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2122,7 +2152,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_driver.kicad_sch"
-			(at 87.63 104.7246 0)
+			(at 87.63 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,6 +2370,16 @@
 			)
 			(uuid "15827d73-87b3-4dfc-82b4-9aca390e440d")
 		)
+		(pin "ILIM" input
+			(at 143.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac4d671e-a0a9-43a0-b71c-7136cbd737ac")
+		)
 		(instances
 			(project "RW_board"
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48"
@@ -2388,7 +2428,7 @@
 	)
 	(sheet
 		(at 171.45 63.5)
-		(size 49.53 46.99)
+		(size 24.13 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2408,7 +2448,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 171.45 111.0746 0)
+			(at 171.45 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2577,7 @@
 			(uuid "9ca95d98-36e6-4716-8b99-f31b7d25d065")
 		)
 		(pin "UART_TX" input
-			(at 171.45 104.14 180)
+			(at 171.45 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2587,7 @@
 			(uuid "1a60df64-c2e7-4237-b2bb-1e507703e0e0")
 		)
 		(pin "UART_RX" input
-			(at 171.45 106.68 180)
+			(at 171.45 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,6 +2595,36 @@
 				(justify left)
 			)
 			(uuid "2edb353c-7803-4906-a518-c6615cfa2cc3")
+		)
+		(pin "ADC1" input
+			(at 171.45 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4fb9a935-b480-46e2-8445-2206cfb2e2e3")
+		)
+		(pin "ADC2" input
+			(at 171.45 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aafcb429-5f83-417a-b1d7-cb7e6ea70f75")
+		)
+		(pin "DAC0" input
+			(at 171.45 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b9b820a-c494-40ca-8bde-0373546802b8")
 		)
 		(instances
 			(project "RW_board"
