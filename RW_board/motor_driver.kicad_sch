@@ -2780,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 105.41) (xy 257.81 105.41)
+			(xy 245.11 105.41) (xy 256.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3393,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 257.81 105.41 0)
+		(at 256.54 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3848,7 +3848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 248.92 113.0299 0)
 			(effects
 				(font
