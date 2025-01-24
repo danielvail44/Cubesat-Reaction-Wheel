@@ -1761,12 +1761,6 @@
 		(uuid "354ced4c-b309-449a-b46a-05c25d9f236d")
 	)
 	(junction
-		(at 81.28 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36b4d5c6-ecf1-4855-ac93-37902a9ea0da")
-	)
-	(junction
 		(at 115.57 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1875,6 +1869,16 @@
 			(type default)
 		)
 		(uuid "03a74126-fcf9-4ad3-85b9-ed2b566c4f0c")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091e8c44-2445-4309-83eb-fc20264f7653")
 	)
 	(wire
 		(pts
@@ -2285,16 +2289,6 @@
 			(type default)
 		)
 		(uuid "5831c073-46c5-4e46-ae68-29d7d65f5114")
-	)
-	(wire
-		(pts
-			(xy 73.66 106.68) (xy 81.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59693c3f-2795-4ea7-833e-e1ed0d3caefa")
 	)
 	(wire
 		(pts
@@ -3136,19 +3130,8 @@
 		)
 		(uuid "fc9f0cf6-cd2c-4e8f-9c40-38e7473540aa")
 	)
-	(wire
-		(pts
-			(xy 165.1 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6befde-38d2-42c7-8da4-3483968688e8")
-	)
 	(label "FB_BK"
 		(at 121.92 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3159,7 +3142,6 @@
 	)
 	(label "SW_BK"
 		(at 224.79 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3170,7 +3152,6 @@
 	)
 	(label "SW_BK"
 		(at 121.92 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3181,7 +3162,6 @@
 	)
 	(label "FB_BK"
 		(at 252.73 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3193,7 +3173,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 198.12 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3205,7 +3184,6 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 205.74 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3217,7 +3195,6 @@
 	(hierarchical_label "H_A"
 		(shape input)
 		(at 170.18 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,7 +3206,6 @@
 	(hierarchical_label "CS"
 		(shape input)
 		(at 144.78 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3241,7 +3217,6 @@
 	(hierarchical_label "BRAKE"
 		(shape input)
 		(at 144.78 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,7 +3228,6 @@
 	(hierarchical_label "SDO"
 		(shape output)
 		(at 160.02 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3265,7 +3239,6 @@
 	(hierarchical_label "Motor_24V"
 		(shape input)
 		(at 74.93 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3277,7 +3250,6 @@
 	(hierarchical_label "FGOUT"
 		(shape output)
 		(at 130.81 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,7 +3272,6 @@
 	(hierarchical_label "nFAULT"
 		(shape output)
 		(at 247.65 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3312,7 +3283,6 @@
 	(hierarchical_label "OUTB"
 		(shape output)
 		(at 129.54 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3324,7 +3294,6 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 152.4 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3336,7 +3305,6 @@
 	(hierarchical_label "H_B"
 		(shape input)
 		(at 170.18 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3348,7 +3316,6 @@
 	(hierarchical_label "nFAULT"
 		(shape output)
 		(at 195.58 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3360,7 +3327,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 256.54 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3372,7 +3338,6 @@
 	(hierarchical_label "PWM"
 		(shape input)
 		(at 142.24 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3384,7 +3349,6 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 247.65 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3396,7 +3360,6 @@
 	(hierarchical_label "OUTC"
 		(shape output)
 		(at 129.54 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3408,7 +3371,6 @@
 	(hierarchical_label "H_C"
 		(shape input)
 		(at 170.18 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3420,7 +3382,6 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 195.58 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3432,7 +3393,6 @@
 	(hierarchical_label "DRVOFF"
 		(shape input)
 		(at 170.18 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3441,22 +3401,9 @@
 		)
 		(uuid "ad747ef1-48f3-4d0f-8ecc-01dca60c6483")
 	)
-	(hierarchical_label "Motor_GND"
-		(shape input)
-		(at 73.66 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af52634d-4959-4370-a529-5f74a66581e5")
-	)
 	(hierarchical_label "nSLEEP"
 		(shape input)
 		(at 170.18 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,7 +3415,6 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 210.82 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3480,7 +3426,6 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 130.81 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3492,7 +3437,6 @@
 	(hierarchical_label "Motor_24V"
 		(shape input)
 		(at 231.14 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3504,7 +3448,6 @@
 	(hierarchical_label "OUTA"
 		(shape output)
 		(at 129.54 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3516,7 +3459,6 @@
 	(hierarchical_label "SDI"
 		(shape input)
 		(at 154.94 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

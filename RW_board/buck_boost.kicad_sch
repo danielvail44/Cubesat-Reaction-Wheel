@@ -3126,7 +3126,6 @@
 	)
 	(label "Drain"
 		(at 153.67 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3137,7 +3136,6 @@
 	)
 	(label "Source"
 		(at 198.12 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3148,7 +3146,6 @@
 	)
 	(label "Drain"
 		(at 198.12 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3159,7 +3156,6 @@
 	)
 	(label "Source"
 		(at 146.05 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3168,115 +3164,60 @@
 		)
 		(uuid "4c0ea652-7bdc-4e52-a165-5d3d9ebe4897")
 	)
-	(global_label "BattIn"
-		(shape input)
-		(at 22.86 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f774d79-7b4b-4c22-a2a0-2ecc8e5c46d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.2506 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSENSE"
-		(shape output)
-		(at 250.19 19.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c905065-e096-4817-8beb-a08f2eda7bd9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.3113 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CURRSENSE"
-		(shape output)
-		(at 223.52 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66b841f2-b7c6-4a5f-bac1-82c3470ea76f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.3468 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 274.32 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b828e62d-f2be-492f-8151-d1b73464bd3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.6033 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "066af03a-baa1-4636-b58c-36329ffd3809")
 	)
-	(global_label "24V"
+	(hierarchical_label "VSENSE"
+		(shape output)
+		(at 250.19 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58fecb15-fc03-408e-adfa-d540fb6d5755")
+	)
+	(hierarchical_label "CURRENTSENSE"
+		(shape output)
+		(at 223.52 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62f2baa5-34ae-46a4-994a-98303332e8e9")
+	)
+	(hierarchical_label "BattIn"
+		(shape input)
+		(at 22.86 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a51ac716-565e-48dd-9a9a-422e42ec78cb")
+	)
+	(hierarchical_label "24V_OUT"
 		(shape output)
 		(at 278.13 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c36a6c36-27f1-44a0-ba42-89cbd1efdb10")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.6422 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "c704fb47-ec4e-412c-a54b-35cd3d2e7c38")
 	)
 	(symbol
 		(lib_id "Device:R")
