@@ -3164,6 +3164,7 @@
 	)
 	(label "FB_BK"
 		(at 121.92 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3174,6 +3175,7 @@
 	)
 	(label "SW_BK"
 		(at 212.09 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3184,6 +3186,7 @@
 	)
 	(label "SW_BK"
 		(at 121.92 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3194,6 +3197,7 @@
 	)
 	(label "FB_BK"
 		(at 252.73 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3205,6 +3209,7 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 198.12 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3216,6 +3221,7 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 205.74 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3227,6 +3233,7 @@
 	(hierarchical_label "H_A"
 		(shape input)
 		(at 170.18 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,6 +3245,7 @@
 	(hierarchical_label "CS"
 		(shape input)
 		(at 144.78 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3249,6 +3257,7 @@
 	(hierarchical_label "BRAKE"
 		(shape input)
 		(at 144.78 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3260,6 +3269,7 @@
 	(hierarchical_label "SDO"
 		(shape output)
 		(at 160.02 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,6 +3281,7 @@
 	(hierarchical_label "Motor_24V"
 		(shape input)
 		(at 74.93 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,6 +3293,7 @@
 	(hierarchical_label "FGOUT"
 		(shape output)
 		(at 130.81 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3293,6 +3305,7 @@
 	(hierarchical_label "ILIM"
 		(shape input)
 		(at 176.53 45.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3304,6 +3317,7 @@
 	(hierarchical_label "nFAULT"
 		(shape output)
 		(at 247.65 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3315,6 +3329,7 @@
 	(hierarchical_label "OUTB"
 		(shape output)
 		(at 129.54 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3326,6 +3341,7 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 152.4 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3337,6 +3353,7 @@
 	(hierarchical_label "H_B"
 		(shape input)
 		(at 170.18 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3348,6 +3365,7 @@
 	(hierarchical_label "nFAULT"
 		(shape output)
 		(at 195.58 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3359,6 +3377,7 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 256.54 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3370,6 +3389,7 @@
 	(hierarchical_label "PWM"
 		(shape input)
 		(at 142.24 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3381,6 +3401,7 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 247.65 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3392,6 +3413,7 @@
 	(hierarchical_label "OUTC"
 		(shape output)
 		(at 129.54 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3403,6 +3425,7 @@
 	(hierarchical_label "H_C"
 		(shape input)
 		(at 170.18 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,6 +3437,7 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 195.58 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3425,6 +3449,7 @@
 	(hierarchical_label "DRVOFF"
 		(shape input)
 		(at 170.18 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3436,6 +3461,7 @@
 	(hierarchical_label "nSLEEP"
 		(shape input)
 		(at 170.18 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3447,6 +3473,7 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 210.82 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,6 +3485,7 @@
 	(hierarchical_label "AVDD"
 		(shape output)
 		(at 130.81 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3469,6 +3497,7 @@
 	(hierarchical_label "Motor_24V"
 		(shape input)
 		(at 231.14 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3480,6 +3509,7 @@
 	(hierarchical_label "OUTA"
 		(shape output)
 		(at 129.54 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3491,6 +3521,7 @@
 	(hierarchical_label "SDI"
 		(shape input)
 		(at 154.94 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
