@@ -3412,6 +3412,28 @@
 		)
 		(uuid "23f9269b-68d2-47ab-86e1-43a1a3bdcc4c")
 	)
+	(label "UVLO"
+		(at 68.58 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dec003a-c3f0-4c28-b0a0-ddd72d5b26b1")
+	)
+	(label "Sense-"
+		(at 236.22 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30cf1256-a16c-429e-9238-e19df0fd4a85")
+	)
 	(label "Drain"
 		(at 198.12 43.18 0)
 		(fields_autoplaced yes)
@@ -3433,6 +3455,28 @@
 			(justify left bottom)
 		)
 		(uuid "4c0ea652-7bdc-4e52-a165-5d3d9ebe4897")
+	)
+	(label "Sense+"
+		(at 264.16 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6670af1e-812d-4c4b-bb14-ec3067efc99d")
+	)
+	(label "Feedback"
+		(at 152.4 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d484a8-f359-4f76-b28c-265ffc5071c3")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -3871,7 +3915,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 299.72 138.43 0)
+			(at 258.826 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 120.65 0)
+			(at 250.444 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 128.27 53.34 0)
 			(effects
 				(font
@@ -4563,7 +4607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 280.67 43.18 0)
 			(effects
 				(font
@@ -4888,7 +4932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 149.86 0)
+			(at 228.346 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 121.92 50.8 0)
 			(effects
 				(font
@@ -7582,7 +7626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 66.04 50.8 0)
 			(effects
 				(font
@@ -7719,7 +7763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 120.65 0)
+			(at 278.638 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
