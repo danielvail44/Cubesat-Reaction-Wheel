@@ -3337,6 +3337,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 48.26) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435575b0-041e-42de-a8cb-960c90063886")
+	)
+	(wire
+		(pts
 			(xy 203.2 74.93) (xy 203.2 76.2)
 		)
 		(stroke
@@ -3604,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "761c86a4-77af-4d71-884b-bedd59584bda")
+	)
+	(wire
+		(pts
+			(xy 181.61 48.26) (xy 184.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f7b371-87f1-4fb6-9fe1-b961b0bc61e9")
 	)
 	(wire
 		(pts
@@ -4024,6 +4044,16 @@
 			(type default)
 		)
 		(uuid "d15e4d15-1f3b-4078-9061-205889f1aef2")
+	)
+	(wire
+		(pts
+			(xy 181.61 50.8) (xy 184.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59a1f9b-0f83-42cc-a2ca-6f805b6d4264")
 	)
 	(wire
 		(pts
@@ -4564,6 +4594,28 @@
 		)
 		(uuid "5822f6bc-07c5-4d74-b2f7-d77300261f55")
 	)
+	(hierarchical_label "ADC2"
+		(shape input)
+		(at 184.15 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6757f3a4-a9b5-4d17-a570-6f7cf37dc5e7")
+	)
+	(hierarchical_label "ADC1"
+		(shape input)
+		(at 184.15 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c4ba39a-645c-4448-9ff1-bf403e4968ab")
+	)
 	(hierarchical_label "MOTOR_DIR"
 		(shape input)
 		(at 138.43 101.6 180)
@@ -4611,6 +4663,17 @@
 			(justify right)
 		)
 		(uuid "8cd8d3c8-3769-43a8-97b2-5099eaab6012")
+	)
+	(hierarchical_label "DAC0"
+		(shape output)
+		(at 142.24 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8ca920b-58c2-4ef5-95dc-e1b5f9807a4e")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
