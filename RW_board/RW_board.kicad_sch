@@ -1655,6 +1655,7 @@
 	)
 	(label "RX"
 		(at 39.37 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,6 +1666,7 @@
 	)
 	(label "TX"
 		(at 39.37 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,7 +1676,6 @@
 		(uuid "07146cbc-b390-4203-8217-050fb4b8b626")
 	)
 	(label "TX"
-		(at 163.83 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1684,7 +1685,6 @@
 		(uuid "3391cc83-aedc-475a-a9f9-79b8680b7ac0")
 	)
 	(label "RX"
-		(at 163.83 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
