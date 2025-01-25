@@ -3392,7 +3392,6 @@
 	)
 	(label "Drain"
 		(at 153.67 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3403,7 +3402,6 @@
 	)
 	(label "Source"
 		(at 198.12 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,7 +3412,6 @@
 	)
 	(label "UVLO"
 		(at 68.58 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3425,7 +3422,6 @@
 	)
 	(label "Sense-"
 		(at 236.22 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3436,7 +3432,6 @@
 	)
 	(label "Drain"
 		(at 198.12 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3447,7 +3442,6 @@
 	)
 	(label "Source"
 		(at 146.05 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,7 +3452,6 @@
 	)
 	(label "Sense+"
 		(at 264.16 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3469,7 +3462,6 @@
 	)
 	(label "Feedback"
 		(at 152.4 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3481,7 +3473,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 274.32 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3493,7 +3484,6 @@
 	(hierarchical_label "VSENSE"
 		(shape output)
 		(at 250.19 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,7 +3495,6 @@
 	(hierarchical_label "CURRENTSENSE"
 		(shape output)
 		(at 223.52 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3517,7 +3506,6 @@
 	(hierarchical_label "BattIn"
 		(shape input)
 		(at 22.86 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3529,7 +3517,6 @@
 	(hierarchical_label "24V_OUT"
 		(shape output)
 		(at 278.13 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

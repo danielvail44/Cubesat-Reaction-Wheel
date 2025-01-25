@@ -2647,70 +2647,44 @@
 		(uuid "f5dc3d95-92db-4a39-9e53-126cba5bbfc5")
 	)
 	(label "RX"
-		(at 39.37 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "017ca4ef-9920-43f1-bafc-c89879b2528e")
-	)
-	(label "TX"
-		(at 39.37 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07146cbc-b390-4203-8217-050fb4b8b626")
-	)
-	(label "TX"
-		(at 0 0 0)
-		(fields_autoplaced yes)
+		(at 163.83 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3391cc83-aedc-475a-a9f9-79b8680b7ac0")
+		(uuid "234bbe82-260a-4ba7-9c04-0abb6762dafd")
 	)
 	(label "TX"
 		(at 163.83 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "98ad7943-7357-46e5-a4bf-ad83853c271c")
+		(uuid "a03f913c-bfcc-404a-928c-3fd944ee6525")
+	)
+	(label "TX"
+		(at 39.37 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdee9259-d297-4d66-9632-56bd9820faf2")
 	)
 	(label "RX"
-		(at 163.83 119.38 0)
-		(fields_autoplaced yes)
+		(at 39.37 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a79925cb-83b0-4271-b060-748653258977")
-	)
-	(label "RX"
-		(at 0 0 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dda3dc57-beb0-4fe1-889a-30c5de4b90d7")
+		(uuid "c333abe7-cfc4-4062-aee8-90ec5c2a3f20")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
