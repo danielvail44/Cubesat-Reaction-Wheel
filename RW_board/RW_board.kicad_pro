@@ -69,8 +69,8 @@
         "hole_clearance|159926000|115200000|7d12d96c-f237-43a9-8c1b-eef54eddff72|befba41b-6377-4fd2-ba3f-c3257bce9e99",
         "hole_clearance|160126000|115200000|1e1e0fe8-0254-4c12-a4e4-326f2c3b2709|befba41b-6377-4fd2-ba3f-c3257bce9e99",
         "lib_footprint_mismatch|149225000|99568000|20e14eb0-31a9-48ec-a8c1-292a91bb7791|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|143570000|77337600|e46eeb91-eb0a-4d93-931a-811cbe7cc97c|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|143570000|79837600|d2fd280e-5e4c-401f-ad45-c32e55a5c70b|00000000-0000-0000-0000-000000000000"
+        "silk_over_copper|144720000|79837600|d2fd280e-5e4c-401f-ad45-c32e55a5c70b|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|145745000|77337600|e46eeb91-eb0a-4d93-931a-811cbe7cc97c|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -144,7 +144,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [

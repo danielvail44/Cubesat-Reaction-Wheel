@@ -67,4 +67,10 @@ K
 F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_bcl322515rt-d_en.pdf
 $ENDCMP
 #
+$CMP 824012823
+D ESD Suppressors / TVS Diodes WE-TVS Diode Array 3.3V 0.18pF 2Channel
+K
+F https://www.we-online.com/catalog/datasheet/824012823.pdf
+$ENDCMP
+#
 #End Doc Library

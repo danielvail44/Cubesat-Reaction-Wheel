@@ -3087,6 +3087,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 173.99) (xy 95.25 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0700063c-015c-4902-a660-73c30fb31c03")
+	)
+	(wire
+		(pts
 			(xy 71.12 45.72) (xy 77.47 45.72)
 		)
 		(stroke
@@ -3207,6 +3217,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 173.99) (xy 48.26 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2262b913-3556-4bd9-ac80-49f4ed724f60")
+	)
+	(wire
+		(pts
 			(xy 138.43 83.82) (xy 146.05 83.82)
 		)
 		(stroke
@@ -3284,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "2e287298-1357-45d3-9b34-b58533e90c19")
+	)
+	(wire
+		(pts
+			(xy 44.45 171.45) (xy 48.26 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3231f69c-be0a-4b45-83aa-160ad68a46db")
 	)
 	(wire
 		(pts
@@ -3667,6 +3697,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 179.07) (xy 95.25 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0b0e58-93f4-4cc9-8caf-b30c0003446c")
+	)
+	(wire
+		(pts
 			(xy 135.89 119.38) (xy 146.05 119.38)
 		)
 		(stroke
@@ -3764,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "8b60aeaf-ed8e-4013-a24e-27f938370405")
+	)
+	(wire
+		(pts
+			(xy 95.25 171.45) (xy 95.25 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba79f0d-5500-4b5c-8d66-b8cd5e072186")
 	)
 	(wire
 		(pts
@@ -4317,6 +4367,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 171.45) (xy 95.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7ad078-36c8-4359-9267-db2d3ed32f0e")
+	)
+	(wire
+		(pts
 			(xy 86.36 101.6) (xy 86.36 99.06)
 		)
 		(stroke
@@ -4690,6 +4750,17 @@
 		)
 		(uuid "c2f6b80b-23bc-4fd4-aa69-28913e8459b5")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 44.45 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfadbb74-7df9-42bf-b532-e20d2e34ddee")
+	)
 	(hierarchical_label "MOTOR_BRAKE"
 		(shape input)
 		(at 142.24 68.58 180)
@@ -4700,6 +4771,17 @@
 			(justify right)
 		)
 		(uuid "d15a7168-2d56-45b8-b87c-1d3ab59fce79")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 44.45 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbd3defb-5cf4-4afb-b3b3-e74d3ce1c696")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -5501,6 +5583,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42daca3f-25a2-437a-b3f3-def6b39f96d8")
+		(property "Reference" "#PWR0415"
+			(at 95.25 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ede34f29-d93b-452c-a281-4b81f458252e")
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/d46f2397-fda0-49de-8aef-b2135a54a0d5"
+					(reference "#PWR0415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 36.83 180)
 		(unit 1)
@@ -5907,6 +6055,133 @@
 			(project "RW_board"
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/d46f2397-fda0-49de-8aef-b2135a54a0d5"
 					(reference "#PWR0409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RW_Imports:PRTR5V0U2X,215")
+		(at 48.26 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6890f398-f4db-4c8f-b716-074fad8f34cc")
+		(property "Reference" "D403"
+			(at 54.102 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PRTR5V0U2X,215"
+			(at 62.992 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PRTR5V0U2X"
+			(at 69.85 258.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+			(at 69.85 358.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes 5.5V Dual SOT143B NXP PRTR5V0U2X,215 Dual Uni-Directional TVS Diode, 4-Pin SOT-143B"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 69.85 558.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PRTR5V0U2X-T/R"
+			(at 69.85 658.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PRTR5V0U2X215?qs=LOCUfHb8d9sDkgY4cRj8Lw%3D%3D"
+			(at 69.85 758.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 69.85 858.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PRTR5V0U2X,215"
+			(at 69.85 958.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d07eda8f-a1b3-48dd-99c7-aa1af153cd20")
+		)
+		(pin "3"
+			(uuid "d23ddcec-ad4c-47c0-9a2a-05c514f68ac6")
+		)
+		(pin "1"
+			(uuid "058168c9-a28c-43c9-8c0e-a434b38181a5")
+		)
+		(pin "2"
+			(uuid "fb3ee8d2-fdd2-423d-87a3-d9eef4f8394f")
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/d46f2397-fda0-49de-8aef-b2135a54a0d5"
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -7853,6 +8128,72 @@
 			(project ""
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/d46f2397-fda0-49de-8aef-b2135a54a0d5"
 					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 95.25 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec40cc86-08d0-4787-b129-290bc06e5628")
+		(property "Reference" "#PWR0416"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 95.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6da62133-fe8c-4ad7-a0db-97cff599787a")
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/d46f2397-fda0-49de-8aef-b2135a54a0d5"
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
