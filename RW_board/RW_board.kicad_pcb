@@ -1285,6 +1285,179 @@
 			(uuid "24fd05c5-5b2e-47d0-93a8-23bf776599b1")
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(layer "F.Cu")
+		(uuid "156f3e1d-f85e-4127-b350-4111fa52e2d8")
+		(at 132.588 93.472)
+		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP27"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(uuid "651e8eea-0cf1-40d1-b773-02e4569f0320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "eeacb9ea-8d30-4627-a028-7e3783ff564e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9fccb8a-cf83-43a4-9f7e-7604f22687f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "623f5848-a870-49dc-8f1a-4bc66ca8d1b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f27ebb-12d7-425f-98f9-536f0dd80517")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/818fd1d9-2c7b-4967-b4fa-637005b787d9/d7deb565-60b5-4582-b48d-2fbdecf2df76")
+		(sheetname "Buck-Boost")
+		(sheetfile "buck_boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -0.7 -0.7)
+			(end 0.7 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4a07053a-91e6-41c5-8774-d652cfb2c498")
+		)
+		(fp_line
+			(start -0.7 0.7)
+			(end -0.7 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4db8d5ff-c8b3-457a-b4f4-f6266f72ad9c")
+		)
+		(fp_line
+			(start 0.7 -0.7)
+			(end 0.7 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c992b260-0d39-415b-b3cb-34ce93230741")
+		)
+		(fp_line
+			(start 0.7 0.7)
+			(end -0.7 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6fd0c908-8c23-400f-9273-9e98ca4abec9")
+		)
+		(fp_line
+			(start -1 -1)
+			(end -1 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c82ae70-5ecf-4ce0-a5f9-7c3aa9ad7b1b")
+		)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8914a048-c1a3-4631-96c6-a084632111b9")
+		)
+		(fp_line
+			(start 1 1)
+			(end -1 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8b77933c-6bfd-4fc0-868a-ede0b673abd9")
+		)
+		(fp_line
+			(start 1 1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb478fec-7587-4812-b995-86249ade7a62")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 0)
+			(layer "F.Fab")
+			(uuid "f56439d8-78e0-4e0c-b369-6eb642f6cba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 92 "Net-(R1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "905eb0aa-aaea-4929-a342-d95904f56dca")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1650ae58-24b2-463b-a9df-a167c505d75f")
@@ -23061,6 +23234,179 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(layer "F.Cu")
+		(uuid "e2380408-ae4b-45fe-a9b1-666cb3e42e5b")
+		(at 130.556 93.472)
+		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP10"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(uuid "3f28ba85-4724-47c8-b1b5-87cb28a8acef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "11ef6d59-5906-4a25-9ef0-d0ef5f401371")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba071c2c-71d3-43ae-919a-60cb0e675ab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61562982-a06e-47b6-b44c-953129af24dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02689a80-3fc3-4ee3-8a5d-4ef5d1baecd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/818fd1d9-2c7b-4967-b4fa-637005b787d9/39a28879-2d55-4d83-a400-53dd59e849dc")
+		(sheetname "Buck-Boost")
+		(sheetfile "buck_boost.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -0.7 -0.7)
+			(end 0.7 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7815417d-85e0-4912-8f87-fbb50a0a0b3d")
+		)
+		(fp_line
+			(start -0.7 0.7)
+			(end -0.7 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "be6ffe93-16b7-4f2e-bbb7-6450f01d2df1")
+		)
+		(fp_line
+			(start 0.7 -0.7)
+			(end 0.7 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c4ba735-af5b-4567-8db0-2e327aeb7e21")
+		)
+		(fp_line
+			(start 0.7 0.7)
+			(end -0.7 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b83a3380-4f23-434a-8526-6281be5cbb16")
+		)
+		(fp_line
+			(start -1 -1)
+			(end -1 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "07304107-a9c6-41e8-9358-0a17f312b027")
+		)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e45fbd0b-0502-4fca-a333-26574cc94123")
+		)
+		(fp_line
+			(start 1 1)
+			(end -1 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb58a21b-dc65-4d3b-a273-144038e72222")
+		)
+		(fp_line
+			(start 1 1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b97a734b-7e11-4352-9ade-78f9cbafd4d8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 0)
+			(layer "F.Fab")
+			(uuid "9bfd7507-116b-41c9-bacc-a5e4d542d13c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 44 "Net-(D201-K)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "fefa9674-07a3-4235-a3e3-7a35b69defd6")
+		)
+	)
 	(footprint "MountingHole:MountingHole_3.5mm_Pad_Via"
 		(locked yes)
 		(layer "F.Cu")
@@ -37110,6 +37456,14 @@
 		(uuid "019dd390-ee2c-476e-ac15-6fc0736421d7")
 	)
 	(segment
+		(start 129.54 93.472)
+		(end 130.556 93.472)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 44)
+		(uuid "050a0785-0755-41a7-8d97-cfe0fdacdfff")
+	)
+	(segment
 		(start 133.098 96.1664)
 		(end 133.1976 96.266)
 		(width 0.2)
@@ -37215,6 +37569,15 @@
 		(uuid "54ae8fad-4d5e-466e-a0af-154a3e49a274")
 	)
 	(via
+		(at 129.54 93.472)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 44)
+		(uuid "89a076ee-e372-4db3-99ab-6c49b540479a")
+	)
+	(via
 		(at 138.8364 104.9528)
 		(size 0.6)
 		(drill 0.3)
@@ -37222,6 +37585,14 @@
 		(free yes)
 		(net 44)
 		(uuid "bb7bd837-98f2-4af0-8707-92965c5ec75a")
+	)
+	(segment
+		(start 129.8448 93.472)
+		(end 129.54 93.472)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 44)
+		(uuid "31978307-821f-46a8-9827-cae6984f44df")
 	)
 	(segment
 		(start 138.5824 105.2068)
@@ -37238,6 +37609,22 @@
 		(layer "B.Cu")
 		(net 44)
 		(uuid "57d53eae-9918-465c-b37e-4928cfa54f6e")
+	)
+	(segment
+		(start 117.856 79.756)
+		(end 122.174 84.074)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 44)
+		(uuid "83229178-ff98-480a-b5c4-bd0ed0952431")
+	)
+	(segment
+		(start 122.174 84.074)
+		(end 117.856 88.392)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 44)
+		(uuid "ba764fd1-a805-4196-8935-9ae5ec68b047")
 	)
 	(segment
 		(start 135.7164 105.736)
@@ -37270,6 +37657,14 @@
 		(layer "B.Cu")
 		(net 44)
 		(uuid "f8438cfe-7b65-4fd2-8f6c-910bc0b8b380")
+	)
+	(segment
+		(start 133.1468 96.774)
+		(end 129.8448 93.472)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 44)
+		(uuid "f8c3f1ad-4c99-47cb-a9fc-fcc218df9a3c")
 	)
 	(segment
 		(start 139.25 79.77)
@@ -38208,12 +38603,28 @@
 		(uuid "50ad46bc-ed97-49fe-be21-6c5205190ffc")
 	)
 	(segment
+		(start 132.588 94.6892)
+		(end 132.588 93.472)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 92)
+		(uuid "890d02c2-26d0-4f7c-8f04-c2eaa537c605")
+	)
+	(segment
 		(start 132.0312 96.266)
 		(end 132.0312 96.1604)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 92)
 		(uuid "ba63aaef-da36-4c0b-b493-bfa874c52a4e")
+	)
+	(segment
+		(start 133.0452 95.1464)
+		(end 132.588 94.6892)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 92)
+		(uuid "bd9e6b1f-b2d9-43ec-9fac-d030ae3bd4c8")
 	)
 	(segment
 		(start 133.0295 92.2685)

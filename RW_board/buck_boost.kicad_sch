@@ -1797,6 +1797,12 @@
 		(uuid "8f27b4db-052f-4cfc-a38a-7410786095fa")
 	)
 	(junction
+		(at 227.33 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "914888a8-0690-445d-a072-913537d7c82f")
+	)
+	(junction
 		(at 236.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1819,6 +1825,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab4d2c86-9972-47f9-bfc0-e5a1ac0c35bd")
+	)
+	(junction
+		(at 226.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a05e41-1830-4467-bd90-afb546b9956d")
 	)
 	(junction
 		(at 146.05 45.72)
@@ -2482,6 +2494,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 43.18) (xy 229.87 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b24d179-4872-4c7a-bafd-8446e9ad1ed3")
+	)
+	(wire
+		(pts
 			(xy 261.62 111.76) (xy 261.62 106.68)
 		)
 		(stroke
@@ -2549,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "6cc88d99-e1f0-46f1-a44f-00e16faa0101")
+	)
+	(wire
+		(pts
+			(xy 226.06 60.96) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf9f795-ab1b-4d91-8b0e-e3044073f9a0")
 	)
 	(wire
 		(pts
@@ -2729,6 +2761,16 @@
 			(type default)
 		)
 		(uuid "82b0e703-c3fd-46f0-bb5c-411329996d66")
+	)
+	(wire
+		(pts
+			(xy 223.52 60.96) (xy 226.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e7755a-c1a5-4038-a98f-9d8487e31a46")
 	)
 	(wire
 		(pts
@@ -2982,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 64.77) (xy 226.06 53.34)
+			(xy 226.06 64.77) (xy 226.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3252,7 +3294,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 43.18) (xy 229.87 43.18)
+			(xy 226.06 43.18) (xy 227.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3392,6 +3434,7 @@
 	)
 	(label "Drain"
 		(at 153.67 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,6 +3445,7 @@
 	)
 	(label "Source"
 		(at 198.12 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3412,6 +3456,7 @@
 	)
 	(label "UVLO"
 		(at 68.58 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3422,6 +3467,7 @@
 	)
 	(label "Sense-"
 		(at 236.22 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3432,6 +3478,7 @@
 	)
 	(label "Drain"
 		(at 198.12 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3442,6 +3489,7 @@
 	)
 	(label "Source"
 		(at 146.05 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3452,6 +3500,7 @@
 	)
 	(label "Sense+"
 		(at 264.16 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3462,6 +3511,7 @@
 	)
 	(label "Feedback"
 		(at 152.4 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3473,6 +3523,7 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 274.32 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3484,6 +3535,7 @@
 	(hierarchical_label "VSENSE"
 		(shape output)
 		(at 250.19 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3495,6 +3547,7 @@
 	(hierarchical_label "CURRENTSENSE"
 		(shape output)
 		(at 223.52 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3506,6 +3559,7 @@
 	(hierarchical_label "BattIn"
 		(shape input)
 		(at 22.86 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3517,6 +3571,7 @@
 	(hierarchical_label "24V_OUT"
 		(shape output)
 		(at 278.13 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4145,6 +4200,73 @@
 			(project ""
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/818fd1d9-2c7b-4967-b4fa-637005b787d9"
 					(reference "C208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a28879-2d55-4d83-a400-53dd59e849dc")
+		(property "Reference" "TP10"
+			(at 229.87 38.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.87 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ab8a22-44ef-4be5-8253-dcd5837902b7")
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/818fd1d9-2c7b-4967-b4fa-637005b787d9"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -7434,6 +7556,73 @@
 			(project "RW_board"
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/818fd1d9-2c7b-4967-b4fa-637005b787d9"
 					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7deb565-60b5-4582-b48d-2fbdecf2df76")
+		(property "Reference" "TP27"
+			(at 226.06 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 226.06 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abbbdf3b-ac9f-4bfd-9ff3-c4bee3d05cd1")
+		)
+		(instances
+			(project "RW_board"
+				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/818fd1d9-2c7b-4967-b4fa-637005b787d9"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
