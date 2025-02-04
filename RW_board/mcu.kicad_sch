@@ -4407,7 +4407,6 @@
 	)
 	(label "SHIELD"
 		(at 93.98 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,7 +4417,6 @@
 	)
 	(label "MCU_nRESET"
 		(at 41.91 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4429,7 +4427,6 @@
 	)
 	(label "SWDIO"
 		(at 135.89 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4440,7 +4437,6 @@
 	)
 	(label "VBUS"
 		(at 91.44 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4447,6 @@
 	)
 	(label "MCU_nRESET"
 		(at 254 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4457,6 @@
 	)
 	(label "VBUS"
 		(at 97.79 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4473,7 +4467,6 @@
 	)
 	(label "SWCLK"
 		(at 254 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,7 +4477,6 @@
 	)
 	(label "D_N"
 		(at 40.64 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4495,7 +4487,6 @@
 	)
 	(label "SWCLK"
 		(at 135.89 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,7 +4497,6 @@
 	)
 	(label "D_P"
 		(at 41.91 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4517,7 +4507,6 @@
 	)
 	(label "D_N"
 		(at 91.44 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4528,7 +4517,6 @@
 	)
 	(label "SWDIO"
 		(at 238.76 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4539,7 +4527,6 @@
 	)
 	(label "MCU_nRESET"
 		(at 132.08 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4550,7 +4537,6 @@
 	)
 	(label "D_N"
 		(at 41.91 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4561,7 +4547,6 @@
 	)
 	(label "D_N"
 		(at 139.7 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4572,7 +4557,6 @@
 	)
 	(label "D_P"
 		(at 139.7 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,7 +4567,6 @@
 	)
 	(label "D_P"
 		(at 91.44 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4594,7 +4577,6 @@
 	)
 	(label "D_P"
 		(at 40.64 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4606,7 +4588,6 @@
 	(hierarchical_label "MOTOR_nSLEEP"
 		(shape input)
 		(at 184.15 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4618,7 +4599,6 @@
 	(hierarchical_label "Motor_PWM"
 		(shape input)
 		(at 138.43 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4630,7 +4610,6 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 138.43 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,7 +4621,6 @@
 	(hierarchical_label "Motor_nFAULT"
 		(shape input)
 		(at 184.15 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4654,7 +4632,6 @@
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 186.69 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4666,7 +4643,6 @@
 	(hierarchical_label "ADC2"
 		(shape input)
 		(at 184.15 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4678,7 +4654,6 @@
 	(hierarchical_label "ADC1"
 		(shape input)
 		(at 184.15 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4690,7 +4665,6 @@
 	(hierarchical_label "MOTOR_DIR"
 		(shape input)
 		(at 138.43 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4702,7 +4676,6 @@
 	(hierarchical_label "CS"
 		(shape input)
 		(at 138.43 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4714,7 +4687,6 @@
 	(hierarchical_label "MOTOR_DRVOFF"
 		(shape input)
 		(at 142.24 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4726,7 +4698,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 215.9 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4738,7 +4709,6 @@
 	(hierarchical_label "DAC0"
 		(shape output)
 		(at 142.24 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4750,7 +4720,6 @@
 	(hierarchical_label "ADC3"
 		(shape input)
 		(at 143.51 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,7 +4731,6 @@
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 138.43 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4774,7 +4742,6 @@
 	(hierarchical_label "MOTOR_SPEED"
 		(shape input)
 		(at 138.43 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4786,7 +4753,6 @@
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 44.45 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4798,7 +4764,6 @@
 	(hierarchical_label "MOTOR_BRAKE"
 		(shape input)
 		(at 142.24 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4810,7 +4775,6 @@
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 44.45 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4822,7 +4786,6 @@
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 138.43 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4834,7 +4797,6 @@
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 186.69 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4964,7 +4926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "30V"
+		(property "Voltage rating" "35V"
 			(at 199.39 41.91 0)
 			(effects
 				(font
@@ -5450,7 +5412,16 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "30V"
+		(property "Voltage rating" "35V"
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R6YA105KE1J "
 			(at 151.13 29.21 0)
 			(effects
 				(font
@@ -5595,7 +5566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "30V"
+		(property "Voltage rating" "35V"
 			(at 234.95 41.91 0)
 			(effects
 				(font
@@ -6074,7 +6045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "30V"
+		(property "Voltage rating" "35V"
 			(at 210.82 41.91 0)
 			(effects
 				(font
@@ -6343,8 +6314,17 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "30V"
+		(property "Voltage Rating" ""
 			(at 57.15 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 57.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "30V"
+		(property "Voltage rating" "35V"
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -6631,8 +6611,17 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "30V"
+		(property "Voltage Rating" ""
 			(at 95.25 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "30V"
+		(property "Voltage rating" "35V"
 			(at 246.38 41.91 0)
 			(effects
 				(font

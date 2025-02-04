@@ -3434,7 +3434,6 @@
 	)
 	(label "Drain"
 		(at 153.67 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3445,7 +3444,6 @@
 	)
 	(label "Source"
 		(at 198.12 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,7 +3454,6 @@
 	)
 	(label "UVLO"
 		(at 68.58 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3467,7 +3464,6 @@
 	)
 	(label "Sense-"
 		(at 236.22 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,7 +3474,6 @@
 	)
 	(label "Drain"
 		(at 198.12 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,7 +3484,6 @@
 	)
 	(label "Source"
 		(at 146.05 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,7 +3494,6 @@
 	)
 	(label "Sense+"
 		(at 264.16 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3511,7 +3504,6 @@
 	)
 	(label "Feedback"
 		(at 152.4 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3515,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 274.32 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3535,7 +3526,6 @@
 	(hierarchical_label "VSENSE"
 		(shape output)
 		(at 250.19 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,7 +3537,6 @@
 	(hierarchical_label "CURRENTSENSE"
 		(shape output)
 		(at 223.52 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,7 +3548,6 @@
 	(hierarchical_label "BattIn"
 		(shape input)
 		(at 22.86 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3571,7 +3559,6 @@
 	(hierarchical_label "24V_OUT"
 		(shape output)
 		(at 278.13 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,6 +3840,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage rating" "35V"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R6YA106MA3D "
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e6318a0-2b54-491b-823c-c575e80dd5b6")
 		)
@@ -3915,6 +3920,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 113.03 82.55 0)
 			(effects
 				(font
@@ -4190,6 +4213,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GCM1555C1H102GA6J "
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a5d23bd-de50-4c38-9f86-edac16a55949")
 		)
@@ -4326,6 +4367,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61A475MEAD "
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a4e4f97-10a5-414a-8ccf-e048faa9953b")
 		)
@@ -4453,6 +4503,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM1555C1H100JA6D "
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 124.46 88.9 0)
 			(effects
 				(font
@@ -4875,6 +4943,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R6YA105KE1J "
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42e60ede-70c5-497f-b1fc-690bd3e6d77a")
 		)
@@ -5133,6 +5219,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R6YA106MA3D "
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -5649,6 +5753,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage rating" "35V"
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R6YA106MA3D "
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1e2744e-d67c-4ee2-a5fd-d0983c1601f0")
 		)
@@ -5711,6 +5833,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R6YA105KE1J "
+			(at 46.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 46.99 68.58 0)
 			(effects
 				(font
@@ -5788,6 +5928,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 269.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 269.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdbb2694-f4ae-4558-b814-1ca295508234")
 		)
@@ -5849,6 +6007,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R6YA105KE1J "
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -6191,6 +6367,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GCM155R71H103KA5J "
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -6572,6 +6766,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0f44610-3dd1-41de-ba39-5f5ebada6983")
 		)
@@ -6633,6 +6845,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R6YA106MA3D "
 			(at 229.87 54.61 0)
 			(effects
 				(font
@@ -7137,6 +7367,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage rating" "35V"
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R6YA106MA3D "
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79c43bb8-9625-465a-9b98-cb17bf8a6076")
 		)
@@ -7396,6 +7644,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 255.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 255.27 88.9 0)
 			(effects
 				(font
@@ -7675,6 +7941,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -8270,6 +8554,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 279.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
+			(at 279.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81d27603-16cd-475f-9028-ef51456adbc9")
 		)
@@ -8410,6 +8712,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35V"
 			(at 255.27 54.61 0)
 			(effects
 				(font
