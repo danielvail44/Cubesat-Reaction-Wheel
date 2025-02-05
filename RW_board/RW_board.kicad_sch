@@ -3512,6 +3512,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110012 "
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a1ccd80-de5b-4304-9db4-08df5ad738c6")
 		)
@@ -4585,6 +4594,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "538-53048-0810 "
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "cb19374a-5833-4cf1-a46e-036ed8e5bc7b")
 		)
@@ -5200,6 +5218,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110020 "
 			(at 170.18 138.43 0)
 			(effects
 				(font

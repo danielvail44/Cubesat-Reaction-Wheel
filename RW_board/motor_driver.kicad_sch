@@ -3543,6 +3543,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0402FX-5101GLF "
+			(at 149.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c27ade8c-c1f6-42b7-86ca-850c17a34e4f")
 		)
@@ -3605,6 +3614,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-P4112S2U1252X4X5 "
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -3930,7 +3948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 246.0752 115.57 0)
 			(effects
 				(font
@@ -3958,6 +3976,15 @@
 			)
 		)
 		(property "Voltage rating" "35V"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C2012X5R1V226MAC "
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -4189,6 +4216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0402FX-5101GLF "
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fcc50a7-be3c-4dea-bd78-87217f285ef6")
 		)
@@ -4392,6 +4428,15 @@
 			)
 		)
 		(property "Voltage rating" "35V"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -4774,6 +4819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110020 "
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38151258-7987-4a0e-9bbc-d2428b159779")
 		)
@@ -5005,7 +5059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 202.438 69.596 0)
 			(effects
 				(font
@@ -5033,6 +5087,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 200.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110231 "
 			(at 200.66 68.58 0)
 			(effects
 				(font
@@ -5103,6 +5166,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-P412Q2T136A8J802 "
 			(at 232.41 77.47 0)
 			(effects
 				(font
@@ -5257,6 +5329,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29c6ea6e-fcac-4096-bb8c-9ec4aa0eca91")
 		)
@@ -5378,7 +5459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 251.968 69.596 0)
 			(effects
 				(font
@@ -5406,6 +5487,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 250.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110231 "
 			(at 250.19 68.58 0)
 			(effects
 				(font
@@ -5792,6 +5882,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "720-P412P1R258A8J802 "
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ad3ab12-e108-48d2-9667-4262d03c72a7")
 		)
@@ -5853,6 +5952,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0402FX-5101GLF "
 			(at 157.48 38.1 0)
 			(effects
 				(font
@@ -5960,7 +6068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 215.138 69.596 0)
 			(effects
 				(font
@@ -5988,6 +6096,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110231 "
 			(at 213.36 68.58 0)
 			(effects
 				(font
@@ -6065,6 +6182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110020 "
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c91f6125-9412-424d-83bb-ab8371859c56")
 		)
@@ -6127,6 +6253,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-P4112P1R2363X4X5 "
 			(at 200.66 77.47 0)
 			(effects
 				(font
@@ -6278,6 +6413,15 @@
 			)
 		)
 		(property "Voltage rating" "35V"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H473KE9D "
 			(at 121.92 91.44 0)
 			(effects
 				(font

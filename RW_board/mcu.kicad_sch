@@ -4935,6 +4935,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61A475MEAD "
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb23b21a-9b6c-424c-9e1d-7e0ad5f8bcfc")
 		)
@@ -5213,7 +5222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "649-221521-00010T4LF "
 			(at 226.06 607.95 0)
 			(effects
 				(font
@@ -5336,6 +5345,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0402FX-5101GLF "
 			(at 95.25 83.82 0)
 			(effects
 				(font
@@ -5575,6 +5593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 234.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "540e2c1a-1c32-4ada-bedc-5b543ddd5b42")
 		)
@@ -5634,6 +5661,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110014 "
 			(at 234.95 123.19 0)
 			(effects
 				(font
@@ -5775,6 +5811,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110020 "
+			(at 57.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "132bf626-c5b7-4bb1-a51a-0c0721b7c5fe")
 		)
@@ -5908,6 +5953,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110012 "
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0ddd576-05bf-4d02-a9c6-4404ed5eb324")
 		)
@@ -5967,6 +6021,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110033 "
 			(at 93.98 101.6 0)
 			(effects
 				(font
@@ -6046,6 +6109,15 @@
 			)
 		)
 		(property "Voltage rating" "35V"
+			(at 210.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
 			(at 210.82 41.91 0)
 			(effects
 				(font
@@ -6332,6 +6404,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24ea4e20-4314-4b6d-8642-a1a307a5146f")
 		)
@@ -6465,6 +6546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0402FX-5101GLF "
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "deab2e1e-f6f5-4f2e-a63b-7243bf2f16ad")
 		)
@@ -6536,6 +6626,15 @@
 			)
 		)
 		(property "Voltage rating" "35V"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
 			(at 223.52 41.91 0)
 			(effects
 				(font
@@ -6629,6 +6728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R71H472JA1D "
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0407f6cd-50ad-4a14-9b0e-49a1f5acb0a8")
 		)
@@ -6691,6 +6799,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-P412Q2T136A8J802 "
 			(at 203.2 80.01 0)
 			(effects
 				(font
@@ -6888,6 +7005,15 @@
 			)
 		)
 		(property "Description" "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, QFN-48"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "556-ATSAMD21G18A-MUT "
 			(at 163.83 83.82 0)
 			(effects
 				(font
@@ -7104,6 +7230,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110231 "
+			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea3449b6-c2e5-4261-95e2-e700275d4812")
 		)
@@ -7183,6 +7318,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM155R61H104KE9J "
+			(at 246.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6643e177-9d58-4a58-874c-4e115d2fd361")
 		)
@@ -7216,7 +7360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 204.978 72.136 0)
 			(effects
 				(font
@@ -7244,6 +7388,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110231 "
 			(at 203.2 71.12 0)
 			(effects
 				(font
@@ -7518,6 +7671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-GRM1555C1H200JA1D "
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67ab27a0-e10a-4cef-ba0f-51ec33668aed")
 		)
@@ -7718,6 +7880,15 @@
 			)
 		)
 		(property "DKPN" "CKN10384TR-ND"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-RS-282G05A3-SMRT "
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -8169,6 +8340,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "640-USB4105-GF-A "
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A7"
 			(uuid "1f035c72-0fa5-4c27-887c-1391219b21f6")
 		)
@@ -8337,6 +8517,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM1555C1H200JA1D "
 			(at 116.84 34.29 0)
 			(effects
 				(font

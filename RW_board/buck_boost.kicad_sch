@@ -3628,6 +3628,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110012 "
+			(at 275.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a9db1a1-2933-480d-80b0-26195ea5abca")
 		)
@@ -3696,6 +3705,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 232.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110178 "
 			(at 232.41 29.21 0)
 			(effects
 				(font
@@ -4322,8 +4340,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3aa74a0e-ef9b-4b02-9048-da92da74d729")
-		(property "Reference" "C1"
-			(at 264.922 116.84 0)
+		(property "Reference" "C219"
+			(at 266.954 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,6 +4394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage rating" "35V"
+			(at 266.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a4e4f97-10a5-414a-8ccf-e048faa9953b")
 		)
@@ -4385,7 +4412,7 @@
 		(instances
 			(project "RW_board"
 				(path "/ff273890-9ca6-499d-9c73-a93557b69e48/818fd1d9-2c7b-4967-b4fa-637005b787d9"
-					(reference "C1")
+					(reference "C219")
 					(unit 1)
 				)
 			)
@@ -4667,6 +4694,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CRT0402FZ3011GLF "
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -5351,6 +5387,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DKPN" "2457-XGL4040-223MEC-ND "
+			(at 93.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6109,6 +6154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110083 "
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51df2125-a138-4a4a-9be1-5e15da2169c6")
 		)
@@ -6269,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 267.97 41.402 90)
 			(effects
 				(font
@@ -6297,6 +6351,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 267.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-PE0603DRF570R02L "
 			(at 267.97 43.18 0)
 			(effects
 				(font
@@ -6473,7 +6536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "726-BSZ300N15NS5ATMA "
 			(at 191.77 538.1 0)
 			(effects
 				(font
@@ -6599,6 +6662,15 @@
 			)
 		)
 		(property "Description" "60-V Low-Side Controller for Boost and SEPIC, MSOP-10"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "926-LM5022MMX/NOPB "
 			(at 91.44 74.93 0)
 			(effects
 				(font
@@ -7013,6 +7085,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0402BRD076K9L "
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67070838-4a22-4475-b94f-84f5481386cf")
 		)
@@ -7081,6 +7162,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110012 "
 			(at 261.62 63.5 0)
 			(effects
 				(font
@@ -7289,6 +7379,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110022 "
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -7746,6 +7845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CRT0402FZ1331GLF "
+			(at 226.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbb9cf94-9c92-447e-afa1-e0e78d7a575d")
 		)
@@ -8043,6 +8151,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-560112110178 "
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5c7f60a-c529-4399-90f2-7ce00de1bf11")
 		)
@@ -8181,6 +8298,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110020 "
 			(at 68.58 59.69 0)
 			(effects
 				(font
@@ -8330,6 +8456,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "RL1220S-R39-F "
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "754-RL1220S-R39-F "
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5d37fea-82ae-4823-9ed5-6efeb7a76494")
 		)
@@ -8398,6 +8542,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 252.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110116 "
 			(at 252.73 29.21 0)
 			(effects
 				(font
@@ -8477,6 +8630,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110185 "
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -8643,6 +8805,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 59.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-560112110032"
 			(at 59.69 85.09 0)
 			(effects
 				(font
