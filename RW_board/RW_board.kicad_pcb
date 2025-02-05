@@ -5707,7 +5707,7 @@
 		)
 		(fp_arc
 			(start -1.7 1.1)
-			(mid -1.65 1.050001)
+			(mid -1.65 1.05)
 			(end -1.6 1.1)
 			(stroke
 				(width 0.1)
@@ -5718,7 +5718,7 @@
 		)
 		(fp_arc
 			(start -1.6 1.1)
-			(mid -1.65 1.150003)
+			(mid -1.65 1.150004)
 			(end -1.7 1.1)
 			(stroke
 				(width 0.1)
@@ -27537,6 +27537,7 @@
 		(property "Reference" "J2"
 			(at 0 0.925 -90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "0499789b-dbdc-4888-8adb-c74cf0692e95")
 			(effects
 				(font
